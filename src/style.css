@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container-maior {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-tarefas {
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-tarefas h1 {
+    font-size: 50px;
+    margin-bottom: 5px;
+}
+
+
+.container-lista {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin-top: 2em;
+    gap: 8px;
+    font-size: 20px;
+}
+
+.tarefa {
+    list-style-type: none;
+}
+
+
+.lista-tarefas {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 5px;
+    padding: 15px;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 100%;
+}
+
+.lista-tarefas button {
+    padding: 5px;
+    border-radius: 9px;
+    cursor: pointer;
+
+}
